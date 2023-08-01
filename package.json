@@ -1,0 +1,64 @@
+{
+  "private": true,
+  "name": "opportfolio",
+  "version": "1.2.0",
+  "homepage": "http://hrishi.tech/",
+  "scripts": {
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "baseui": "^12.2.0",
+    "gh-pages": "^5.0.0",
+    "glamor": "^2.20.40",
+    "react": "^16.8.0",
+    "react-bootstrap": "^2.6.0",
+    "react-cursor-custom": "^1.2.4",
+    "react-dom": "^16.8.0",
+    "react-ga": "^3.3.1",
+    "react-icons": "^4.7.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.2.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^6.1.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.2.1",
+    "prettier-package-json": "^2.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.json": "prettier-package-json --write",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
