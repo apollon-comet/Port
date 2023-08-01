@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "name": "opportfolio",
   "version": "1.2.0",
   "homepage": "https://apollon-comet.github.io/Port/",
