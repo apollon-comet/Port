@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Senior Developer, Blockchain Enthusiast. Always learning.",
   resumeLink: "resume.pdf",
-  mail: "apollon.comet520@gmail.com",
+  mail: "apollon.comet@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -948,14 +948,14 @@ const projects = {
 };
 
 export {
-  settings,
-  greeting,
-  socialMediaLinks,
-  skills,
-  degrees,
   certifications,
-  experience,
-  projectsHeader,
   contactPageData,
+  degrees,
+  experience,
+  greeting,
   projects,
+  projectsHeader,
+  settings,
+  skills,
+  socialMediaLinks,
 };
